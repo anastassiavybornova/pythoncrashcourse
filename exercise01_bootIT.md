@@ -43,7 +43,7 @@ After opening up the jupyter notebook application (step 2),
 </p>
 
 ## Step 4: Opening and running a saved jupyter notebook
-1. Save the jupyter notebook [`exercise01_testIT.ipynb`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise01_testIT.ipynb) on your machine, in the folder of your choice
+1. Save the jupyter notebook [`exercise01_testIT.ipynb`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise01_testIT.ipynb), (available for download on the [learnIT course page](https://learnit.itu.dk/course/view.php?id=3022199)) on your machine, in the folder of your choice
 2. Open up the jupyter notebook application (step 2)
 3. Navigate to the folder
 4. Click the file, it should open in a new browser window
