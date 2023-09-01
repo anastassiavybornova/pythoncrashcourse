@@ -9,3 +9,5 @@ Below, you find additional resources (some of them, more detailed/more advanced)
 * More on [casting (type conversion)](https://www.w3docs.com/learn-python/python-casting.html) in Python
 * More on [Booleans](https://www.w3schools.com/python/python_booleans.asp)
 * More on [propositional logic in Python](https://www.cs.toronto.edu/~david/course-notes/csc110-111/03-logic/01-propositional-logic.html)
+
+The course [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) (with video resources!) covers most of the topics above in its lectures 01 and 02.
