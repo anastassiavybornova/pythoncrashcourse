@@ -41,4 +41,4 @@ When ran from the CLI, your program output should look approximately like this:
 
 ## Code skeleton
 
-We provide a code skeleton `xxxx_rpsw.py`; you are *allowed* to use it, but you don't have to. (There are many possible solutions to this task - the code structure suggested in the code skeleton is only one of many possible ways!)
+We provide a code skeleton [`xxxx_rpsw.py`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/assignments/assignment03/xxxx_rpsw.py); you are *allowed* to use it, but you don't have to. (There are many possible solutions to this task - the code structure suggested in the code skeleton is only one of many possible ways!)
