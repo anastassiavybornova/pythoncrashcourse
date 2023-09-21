@@ -16,7 +16,7 @@ The rules of Rock, Paper, Scissors, Worldpeace are simple:
 * Paper beats Rock
 * Worldpeace beats everything
 
-In each round of RPSW, the user gets asked to choose between Rock (`R`), Paper (`R`), Scissors (`S`), Worldpeace (`W`), or Quitting the game (`Q`). If the user selects `Q`, the game ends. If the user selects `W`, the always user wins. If the user selects `R`, `P`, or `S`, the computer also (randomly) chooses between `R`, `P` and `S`, and the user and computer moves are evaluated against each other: either the user wins; or the computer wins; or it's a tie.
+In each round of RPSW, the user gets asked to choose between Rock (`R`), Paper (`R`), Scissors (`S`), Worldpeace (`W`), or Quitting the game (`Q`). If the user selects `Q`, the game ends. If the user selects `W`, the user always wins. If the user selects `R`, `P`, or `S`, the computer also (randomly) chooses between `R`, `P` and `S`, and the user and computer moves are evaluated against each other: either the user wins; or the computer wins; or it's a tie.
 
 ## Instructions for your script
 
@@ -30,13 +30,13 @@ When writing your script, make sure that:
     * the message `Worldpeace - you win!` is printed
     * `X:Y - you lose!` is printed 
     * `X:Y - you win!` is printed
-    * `X:Y - it's a tie` is printed (where X is the user move and Y is the computer move)
+    * `X:Y - it's a tie!` is printed (where X is the user move and Y is the computer move)
 * Only the user (not the computer) is allowed to play the "Worldpeace" moves
 
 When ran from the CLI, your program output should look approximately like this:
 
 <p style="text-align:left;">
-    <img src="../images/rpsw.png" alt="Rock, Paper, Scissors, Worldpeace from the CLI" width=500px>
+    <img src="../../images/rpsw.png" alt="Rock, Paper, Scissors, Worldpeace from the CLI" width=750px>
 </p>
 
 ## Code skeleton
