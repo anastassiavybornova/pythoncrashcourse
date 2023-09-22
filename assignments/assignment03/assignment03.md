@@ -19,6 +19,12 @@ The rules of Rock, Paper, Scissors, Worldpeace are simple:
 
 In each round of RPSW, the user gets asked to choose between Rock (`R`), Paper (`R`), Scissors (`S`), Worldpeace (`W`); or Quitting the game (`Q`). If the user selects `Q`, the game ends, and no more rounds are played. If the user selects `W`, the user wins the round; and a new round of the game starts. If the user selects `R`, `P`, or `S`, the computer also (randomly) chooses between `R`, `P` and `S`, and the user and computer moves are evaluated against each other (either the user wins; or the computer wins; or it's a tie); then a new round of the game starts. 
 
+When ran from the CLI, your program output should look approximately like this:
+
+<p style="text-align:left;">
+    <img src="../../images/rpsw.png" alt="Rock, Paper, Scissors, Worldpeace from the CLI" width=750px>
+</p>
+
 ## Instructions for your script
 
 When writing your script, make sure that:
@@ -33,12 +39,7 @@ When writing your script, make sure that:
     * `X:Y - you win!` is printed; and a next round of the game starts
     * `X:Y - it's a tie!` is printed; and a next round of the game starts
 * Only the user (not the computer) is allowed to play the "Worldpeace" moves
-
-When ran from the CLI, your program output should look approximately like this:
-
-<p style="text-align:left;">
-    <img src="../../images/rpsw.png" alt="Rock, Paper, Scissors, Worldpeace from the CLI" width=750px>
-</p>
+* Make sure to put **comments** in your code and, if you use functions, make sure they have **docstrings** 
 
 ## Code skeleton
 

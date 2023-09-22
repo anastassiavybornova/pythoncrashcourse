@@ -13,10 +13,11 @@ random.seed(42)
 ##########################################################################
 # DEFINING FUNCTIONS
 
-# define a function that prompts the user to input a letter,
-# with the string "Rock, paper, scissors, worldpeace, or quit? (R, P, S, W, Q) "
-# converts the input into upper case by default,
-# checks whether user input is an accepted value (R, P, S, W, or Q),
+# define a function that: 
+# with the string "Rock, paper, scissors, worldpeace, or quit? (R, P, S, W, Q) ",
+# prompts the user to input a letter;
+# converts the user input into upper case by default;
+# checks whether user input is an accepted value (R, P, S, W, or Q);
 # and if not - keeps on asking the same question until input is an accepted value;
 # finally, function returns the user input (in upper case)
 def user_plays():
@@ -41,16 +42,16 @@ def computer_plays():
 # "you win", "computer wins", or "it's a tie"
 def evaluate_moves(usermove, computermove):
     raise NotImplementedError()
-    # either it's a tie,
-    # or you won (list all winning combinations for user below)
-    # or, in all other cases, you lose
+    # if... (either it's a tie)
+    # elif... (or you won)
+    # else... (or, in all other cases, you lose)
 
 ##########################################################################
 # GAME STARTS
 
 # Welcome message
 
-# eternal while loop (only ends if user inputs "Q" or "q")
+# eternal while loop
 
     # let user make a move (R, P, S, W, or Q) with the user_plays() function
     
