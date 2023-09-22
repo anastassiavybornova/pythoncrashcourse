@@ -15,6 +15,7 @@ The rules of Rock, Paper, Scissors, Worldpeace are simple:
 * Scissors beat Paper
 * Paper beats Rock
 * Worldpeace beats everything
+* if both user and computer select the same (Rock:Rock, Paper:Paper, or Scissors:Scissors), it's a tie (no one wins)
 
 In each round of RPSW, the user gets asked to choose between Rock (`R`), Paper (`R`), Scissors (`S`), Worldpeace (`W`); or Quitting the game (`Q`). If the user selects `Q`, the game ends, and no more rounds are played. If the user selects `W`, the user wins the round; and a new round of the game starts. If the user selects `R`, `P`, or `S`, the computer also (randomly) chooses between `R`, `P` and `S`, and the user and computer moves are evaluated against each other (either the user wins; or the computer wins; or it's a tie); then a new round of the game starts. 
 
@@ -28,7 +29,7 @@ When writing your script, make sure that:
 * As soon as the user provides valid input, one of the following happens:
     * the game ends with the message `Thanks for playing! The game is over now.`
     * the message `Worldpeace - you win!` is printed; and a next round of the game starts (i.e. user is prompted for input again)
-    * `X:Y - you lose!` is printed; and a next round of the game starts ((where X is the user move and Y is the computer move))
+    * `X:Y - you lose!` is printed (where X is the user move and Y is the computer move); and a next round of the game starts
     * `X:Y - you win!` is printed; and a next round of the game starts
     * `X:Y - it's a tie!` is printed; and a next round of the game starts
 * Only the user (not the computer) is allowed to play the "Worldpeace" moves
@@ -41,7 +42,7 @@ When ran from the CLI, your program output should look approximately like this:
 
 ## Code skeleton
 
-We provide a code skeleton [`xxxx_rpsw_withhints.py`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/assignments/assignment03/xxxx_rpsw_withhints.py); you are *allowed* to use it, but you don't have to. (There are many possible solutions to this task - the code structure suggested in the code skeleton is only one of many possible ways!) If you prefer not to get any hints, use [`xxxx_rpsw_withouthints.py`]((https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/assignments/assignment03/xxxx_rpsw_withhints.py)) instead.
+We provide a code skeleton [`xxxx_rpsw_withhints.py`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/assignments/assignment03/xxxx_rpsw_withhints.py); you are *allowed* to use it, but you don't have to. (There are many possible solutions to this task - the code structure suggested in the code skeleton is only one of many possible ways!) If you prefer not to get any hints, use [`xxxx_rpsw_withouthints.py`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/assignments/assignment03/xxxx_rpsw_withouthints.py) instead.
 
 ## Hints
 
