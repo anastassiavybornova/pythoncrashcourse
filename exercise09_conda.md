@@ -12,7 +12,7 @@ Check out the [documentation](https://docs.conda.io/projects/conda/en/stable/use
     * `pandas`
     * `requests`
 
-<p style="text-align:left;">
+<p style="text-align:center;">
     <img src="images/condalist.png" alt="extract of conda list output" width=500px>
 </p>
 
@@ -20,7 +20,7 @@ Check out the [documentation](https://docs.conda.io/projects/conda/en/stable/use
 
 * Now run `conda env list`; this will show you a list of available **environments**, and their locations on your machine. You should see at least 1 environment, with the name "base". Below is an example from Anastassia's machine (base environment + 2 more environments)
 
-<p style="text-align:left;">
+<p style="text-align:center;">
     <img src="images/condaenvlist.png" alt="conda env list output" width=500px>
 </p>
 
@@ -38,7 +38,7 @@ Check out the [documentation](https://docs.conda.io/projects/conda/en/stable/use
 conda create --name websoup ipykernel jupyter requests
 ```
 
-<p style="text-align:left;">
+<p style="text-align:center;">
     <img src="images/createwebsoup.png" alt="Creating the websoup environment" width=500px>
 </p>
 
@@ -54,7 +54,7 @@ Now, we want to add one more package to our `websoup` environment. The way to do
 * Make sure that `websoup` is activated, then run:
 * `conda install beautifulsoup4` (if installation fails with `conda`, try to run `pip install beautifulsoup4` instead)
 
-<p style="text-align:left;">
+<p style="text-align:center;">
     <img src="images/activatewebsoup.png" alt="Activating the websoup environment, and adding a package" width=500px>
 </p>
 
@@ -72,7 +72,7 @@ python -m ipykernel install --user --name=websoup
 
 Now, when you run `jupyter notebook` in your CLI to launch jupyter notebook in your browser, you should see `websoup` as a kernel; select it at notebook creation to open up a notebook in the `websoup` environment!
 
-<p style="text-align:left;">
+<p style="text-align:center;">
     <img src="images/soupkernel.png" alt="Selecting the websoup kernel for your Jupyter notebook" width=500px>
 </p>
 
@@ -85,6 +85,6 @@ import bs4
 
 If no error message is displayed and both packages could be imported: **success!** (We will use this environment at the next lecture & exercise)
 
-## Troubleshooting - ff (almost) nothing of the above worked
+## Troubleshooting - if (almost) nothing of the above worked
 
 If you had some difficulties with the instructions above, that could not be resolved during the exercise, [head here](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise09_justsoup.md) for a minimal version of the instructions. (To ONLY install beautifulsoup4 in your base environment)
