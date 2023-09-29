@@ -21,22 +21,40 @@ Find the detailed official instructions [here](https://learn.microsoft.com/en-us
 
 **Step 1: Open CLI as Administrator**
 
-<figure>
-  <img src="images/cmd.png" alt="Open Command Prompt as Administrator" style="width:50%">
-  <figcaption>Step 1: Open CLI (shown here: Command Prompt) as administrator</figcaption>
-</figure>
+<p style="text-align:left;">
+<img src="images/cmd.png" alt="Open Command Prompt as Administrator" style="width:50%">
+</p>
 
 **Step 2: `wsl --install`**
 
-** Step 3 & 4: After restart, set username & password
+<p style="text-align:left;">
+<img src="images/wsl-install.png" alt="Run wsl --install from CLI" style="width:50%">
+</p>
 
-> **Note** If running `wsl --install` doesn't look like in the screenshot above, but instead shows you a help text (as in the screenshot below), it means that you already have some distribution of WSL installed. Click here for instructions what to do next [INSERT LINK TO MD 2].
+**Step 3 & 4: After restart, set username & password**
 
-### Accessing the Unix shell
+<p style="text-align:left;">
+<img src="images/ubuntu-setup.png" alt="Run wsl --install from CLI" style="width:50%">
+</p>
+
+
+> **Note** If running `wsl --install` doesn't look like in the screenshot of Step 2 above, but instead shows you a help text (as in the screenshot below), it means that you already have some distribution of WSL installed. [Click here](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/WSL_alreadyinstalled.md) for instructions what to do next.
+
+## Accessing the Unix shell
 
 Now, you should be able to open the application `Ubuntu` from your Windows machine. Click on the Windows symbol and type "Ubuntu" to search for the application, then open it.
 
-[INSERT UBUNTU]
+<p style="text-align:left;">
+<img src="images/ubuntu.png" alt="Run wsl --install from CLI" style="width:50%">
+</p>
+
+**Welcome to your Unix shell on Windows!**
+
+<p style="text-align:left;">
+<img src="images/unix-shell.png" alt="Run wsl --install from CLI" style="width:50%">
+</p>
+
+
 
 ## Outro: WSL, what's next?
 
