@@ -1,0 +1,7 @@
+Q: Why is it called Python?
+A: When he began implementing Python, Guido van Rossum was also reading the published scripts from “Monty Python’s Flying Circus”, a BBC comedy series from the 1970s. Van Rossum thought he needed a name that was short, unique, and slightly mysterious, so he decided to call the language Python.
+
+Q: Do I have to like “Monty Python’s Flying Circus”?
+A: No, but it helps.
+
+(source: https://docs.python.org/3/faq/general.html#why-is-it-called-python)
