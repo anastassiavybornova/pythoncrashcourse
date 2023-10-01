@@ -14,10 +14,6 @@ wsl -l -v
 
 ## If Ubuntu is already in the list of distributions
 
-<p style="text-align:left;">
-<img src="images/ubuntu-already.png" alt="Ubuntu is already in the list of distributions" style="width:30%">
-</p>
-
 Run 
 
 ```
@@ -26,13 +22,11 @@ wsl -s Ubuntu
 
 to set the default distribution to Ubuntu. 
 
-
-## If Ubuntu is not yet in the list of distributions
-
 <p style="text-align:left;">
-<img src="images/ubuntu-notyet.png" alt="Run wsl --install from CLI" style="width:30%">
+<img src="images/ubuntu-already.png" alt="Ubuntu is already in the list of distributions" style="width:50%">
 </p>
 
+## If Ubuntu is not yet in the list of distributions
 
 Run 
 
@@ -47,6 +41,10 @@ wsl -s Ubuntu
 ```
 
 to set the default distribution to Ubuntu. 
+
+<p style="text-align:left;">
+<img src="images/ubuntu-notyet.png" alt="Run wsl --install from CLI" style="width:50%">
+</p>
 
 ## After Ubuntu distribution has been checked/installed
 
