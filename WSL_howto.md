@@ -54,8 +54,6 @@ Now, you should be able to open the application `Ubuntu` from your Windows machi
 <img src="images/unix-shell.png" alt="Run wsl --install from CLI" style="width:50%">
 </p>
 
-
-
 ## Outro: WSL, what's next?
 
 After successfully installing WSL, you will have four shells on your machine:
