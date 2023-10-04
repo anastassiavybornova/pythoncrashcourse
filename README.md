@@ -4,6 +4,10 @@ Welcome! This repository contains material for the Python Crash Course within  [
 
 **Contact**: Anastassia Vybornova [anvy@itu.dk](mailto:anvy@itu.dk)
 
+## Detailed course contents
+
+See [`course_contents.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/cource_contents.md)
+
 ## bootIT installation instructions
 
 1. [`exercise01_bootIT.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise01_bootIT.md): Follow these instructions to install all the software needed in the course.
