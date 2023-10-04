@@ -84,4 +84,4 @@ General course intro & organization.
 ## Lecture 10
 * Intro to HTML and website source code
 * Sending HTTP requests with the `requests` module
-* Webscraping with the `beautifulsoup4` module
+* Webscraping with the `beautifulsoup4` package
