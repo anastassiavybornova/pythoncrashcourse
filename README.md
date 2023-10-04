@@ -6,7 +6,7 @@ Welcome! This repository contains material for the Python Crash Course within  [
 
 ## Detailed course contents
 
-See [`course_contents.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/cource_contents.md)
+See [`course_contents.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/course_contents.md)
 
 ## bootIT installation instructions
 
