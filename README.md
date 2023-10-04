@@ -9,10 +9,6 @@ Welcome! This repository contains material for the Python Crash Course within  [
 1. [`exercise01_bootIT.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise01_bootIT.md): Follow these instructions to install all the software needed in the course.
 2. [`exercise01_testIT.ipynb`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/exercise01_testIT.ipynb): Run this notebook to verify that the installation worked as expected.
 
-## Lecture & exercise notebooks
+## WSL installation instructions
 
-see the folders `/lectures/` and `/exercises/`. Will be published here only *after* the corresponding lecture / exercise.
-
-## Further reading
-
-Further reading for each lecture is found in the `furtherreading_lecturexx.md` files (see file list on top).
+See [`WSL_howto.md`](https://github.com/anastassiavybornova/pythoncrashcourse/blob/main/WSL_howto.md)
